@@ -1,4 +1,4 @@
-Simple Restfull server with Silex
+Simple RESTful server with Silex
 
 We define the resources within a yml file:
 
