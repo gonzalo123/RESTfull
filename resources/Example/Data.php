@@ -2,10 +2,17 @@
 
 namespace Example;
 
-use G\RestFull\Resource\RestFullResource;
+use Symfony\Component\HttpFoundation\Request;
 
-class Data extends RestFullResource
+class Data
 {
+    private $request;
+
+    public function __construct(Request $request)
+    {
+        $this->request = $request;
+    }
+
     public function getAll()
     {
         return [
@@ -16,8 +23,7 @@ class Data extends RestFullResource
 
     public function getOne($id)
     {
-        $request = $this->getRequest();
-        return ['id' => 1, 'name' => 'Clark Kent'];
+        return ['id' => $id, 'name' => 'Clark Kent ' . $this->request->get('a')];
     }
 
     public function deleteOne($id)

@@ -1,0 +1,2 @@
+Symfony\Component\HttpFoundation\Request: request
+Doctrine\DBAL\Connection: db
