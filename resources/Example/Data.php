@@ -33,7 +33,6 @@ class Data
 
     public function addOne()
     {
-        $payload = $this->getPayload();
         return [];
     }
 
