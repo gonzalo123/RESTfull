@@ -1,12 +1,19 @@
 {
+    "name": "gonzalo123/restfull",
+    "minimum-stability": "dev",
+    "description": "restfull silex server",
+    "license": "MIT",
+    "keywords": ["silex", "restfull"],
     "require": {
+        "php": ">=5.3.2",
         "silex/silex": "1.0.*@dev",
-        "symfony/yaml":"v2.2.0"
+        "symfony/yaml": "v2.2.0"
+    },
+    "require-dev": {
     },
     "autoload": {
         "psr-0": {
-            "G": "src/",
-            "": "resources/"
+            "G": "src/"
         }
     }
 }
