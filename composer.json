@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.3.2",
         "silex/silex": ">=v1.1.2, <4.0",
-        "symfony/yaml": "3.0.*@dev"
+        "symfony/yaml": "~2.3,<3.0"
     },
     "require-dev": {
     },
