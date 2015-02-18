@@ -6,7 +6,7 @@
     "keywords": ["silex", "restfull"],
     "require": {
         "php": ">=5.3.2",
-        "silex/silex": "2.0.*@dev",
+        "silex/silex": ">=v1.1.2, <4.0",
         "symfony/yaml": "3.0.*@dev"
     },
     "require-dev": {
